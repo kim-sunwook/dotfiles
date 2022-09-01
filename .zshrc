@@ -21,6 +21,8 @@ alias gl='git pull'
 alias gmm='git merge master'
 alias gp='git push'
 alias gt='git status'
+alias gb='git branch'
+alias gbd='git branch delete'
 
 #### Show current git branch on terminal ####
 
