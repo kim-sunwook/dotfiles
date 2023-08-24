@@ -13,6 +13,7 @@ alias ll='ls -al'
 
 alias ga='git add --all'
 alias gcm='git commit'
+alias gcmn='git commit --no-verify'
 alias gg='git log'
 alias gg1='git log -1'
 alias gk='git checkout'
