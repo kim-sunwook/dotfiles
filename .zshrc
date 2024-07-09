@@ -8,7 +8,7 @@ eval "$(nodenv init -)"
 # For General Terminal Use
 
 alias ll='ls -al'
-alias cpwd='pwd | pbcopy'
+alias cpwd='pwd | tr -d "\n" | pbcopy'
 
 # For Git
 
