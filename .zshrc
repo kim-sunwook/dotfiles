@@ -27,7 +27,8 @@ alias gpu='git push -u origin'
 alias gt='git status'
 alias gb='git branch'
 alias gbd='git branch delete'
-
+alias gst='git stash'
+alias gsta ='git stash apply'
 #### Show current git branch on terminal ####
 
 # Load version control information
