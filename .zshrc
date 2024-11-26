@@ -47,7 +47,6 @@ alias gk='git checkout'
 alias gkm='git checkout master'
 alias gl='git pull'
 alias gm='git merge'
-alias gmm='git merge master'
 alias gmm='merge_latest_master'
 alias gp='git push'
 alias gpu='git push -u origin'
@@ -55,6 +54,7 @@ alias gt='git status'
 alias gb='git branch'
 alias gbd='git branch delete'
 alias gst='git stash'
+alias gstm='git stash push -m'
 alias gsta='git stash apply'
 alias gsl="git --no-pager stash list -20"
 alias dupw="docker-compose up web"
@@ -72,6 +72,7 @@ alias itemsb="code ~/code/det-items-backend"
 alias detweb="code ~/code/det-web"
 alias detmono="code ~/code/duolingo-englishtest"
 alias zshrc="code ~/code/dotfiles/.zshrc"
+
 #### Show current git branch on terminal ####
 
 # Load version control information
