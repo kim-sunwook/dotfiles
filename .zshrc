@@ -45,6 +45,7 @@ alias gg='git log'
 alias gg1='git log -1'
 alias gk='git checkout'
 alias gkm='git checkout master'
+alias gkb='git checkout -b'
 alias gl='git pull'
 alias gm='git merge'
 alias gmm='merge_latest_master'
@@ -72,6 +73,7 @@ alias itemsb="code ~/code/det-items-backend"
 alias detweb="code ~/code/det-web"
 alias detmono="code ~/code/duolingo-englishtest"
 alias zshrc="code ~/code/dotfiles/.zshrc"
+alias web-ui="code ~/code/web-ui"
 
 #### Show current git branch on terminal ####
 
