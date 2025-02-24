@@ -4,6 +4,7 @@ export DUOLINGO_ID=685538814
 eval "$(nodenv init -)"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+export JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjYzMDcyMDAwMDAsImlhdCI6MCwic3ViIjo2ODU1Mzg4MTR9.NQcEyAGKt4QCNl_Z7DsCtKwOrfXtYYqk4j5Mdkbiw5g
 #### Custom Commands ####
 
 # For General Terminal Use
@@ -73,6 +74,7 @@ alias examadmin="code ~/code/det-exam-administration-backend"
 alias itemsb="code ~/code/det-items-backend"
 alias detweb="code ~/code/det-web"
 alias detmono="code ~/code/duolingo-englishtest"
+alias dotfiles="code ~/code/dotfiles"
 alias zshrc="code ~/code/dotfiles/.zshrc"
 alias web-ui="code ~/code/web-ui"
 
