@@ -54,6 +54,7 @@ alias gpu='git push -u origin'
 alias gt='git status'
 alias gb='git branch'
 alias gbd='git branch delete'
+alias gr="git branch --sort=-committerdate | head -n 5"
 alias gst='git stash'
 alias gstm='git stash push -m'
 alias gsta='git stash apply'
