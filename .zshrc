@@ -56,6 +56,7 @@ alias gt='git status'
 alias gb='git branch'
 alias gbd='git branch delete'
 alias gr="git branch --sort=-committerdate | head -n 5"
+
 alias gst='git stash'
 alias gstm='git stash push -m'
 alias gsta='git stash apply'
@@ -65,6 +66,7 @@ alias dup="docker-compose up"
 alias ddown="docker-compose down"
 alias dbuildw="docker-compose build web"
 alias dbuild="docker-compose build"
+alias dpl="duo deploy"
 alias rstart="./run.sh start"
 alias rbuild="./run.sh build"
 alias rstop="./run.sh stop"
