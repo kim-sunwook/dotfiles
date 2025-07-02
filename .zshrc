@@ -78,7 +78,7 @@ alias detweb="cursor ~/code/det-web"
 alias detmono="cursor ~/code/duolingo-englishtest"
 alias dotfiles="cursor ~/code/dotfiles"
 alias zshrc="cursor ~/code/dotfiles/.zshrc"
-alias web-ui="cursor ~/code/web-ui"
+alias webui="cursor ~/code/webui"
 
 #### Show current git branch on terminal ####
 
