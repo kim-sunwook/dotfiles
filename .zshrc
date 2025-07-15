@@ -80,6 +80,7 @@ alias dotfiles="cd ~/code/dotfiles"
 alias zshrc="cd ~/code/dotfiles/.zshrc"
 alias webui="cd ~/code/webui"
 alias specs="cd ~/code/specs"
+alias ta="cd ~/code/det-test-analytics-backend"
 
 #### Show current git branch on terminal ####
 
