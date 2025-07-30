@@ -81,7 +81,7 @@ alias zshrc="cd ~/code/dotfiles/.zshrc"
 alias webui="cd ~/code/webui"
 alias specs="cd ~/code/specs"
 alias ta="cd ~/code/det-test-analytics-backend"
-alias infrablueprint="cd ~/code/infra-blueprint"
+alias infrablueprints="cd ~/code/infra-blueprints"
 #### Show current git branch on terminal ####
 
 # Load version control information
