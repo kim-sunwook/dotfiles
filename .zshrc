@@ -5,6 +5,7 @@ eval "$(nodenv init -)"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 export JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjYzMDcyMDAwMDAsImlhdCI6MCwic3ViIjo2ODU1Mzg4MTR9.NQcEyAGKt4QCNl_Z7DsCtKwOrfXtYYqk4j5Mdkbiw5g
+export LDFLAGS="-I$(brew --prefix openssl)/include -L$(brew --prefix openssl)/lib"
 #### Custom Commands ####
 
 # For General Terminal Use
