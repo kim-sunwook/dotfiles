@@ -8,21 +8,6 @@ export JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjYzMDcyMDAwMDAsIm
 export LDFLAGS="-I$(brew --prefix openssl)/include -L$(brew --prefix openssl)/lib"
 #### Custom Commands ####
 
-# Automatically activate Python venv if .venv exists
-auto_activate_venv() {
-  if [ -e ".venv/bin/activate" ]; then
-    source .venv/bin/activate
-  fi
-}
-
-# Hook into zsh directory change
-chpwd() {
-  auto_activate_venv
-}
-
-# Run once for the initial shell startup too
-auto_activate_venv
-
 # For General Terminal Use
 
 alias ll='ls -al'
@@ -98,6 +83,7 @@ alias webui="cd ~/code/web-ui"
 alias specs="cd ~/code/specs"
 alias ta="cd ~/code/det-test-analytics-backend"
 alias infrablueprints="cd ~/code/infra-blueprints"
+alias pyenvup="source .venv/bin/activate"
 #### Show current git branch on terminal ####
 
 # Load version control information
